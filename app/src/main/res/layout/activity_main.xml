@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/app_header"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_spotify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="240dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/button_spotify"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/button_super"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:width="240dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/button_super"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/button_buildit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:width="240dp"
+        android:text="@string/button_buildit"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/button_xyz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:width="240dp"
+        android:text="@string/button_xyz"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/button_capstone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:width="240dp"
+        android:text="@string/button_capstone"
+        android:textAllCaps="true" />
+
+</LinearLayout>
