@@ -40,9 +40,27 @@ public class MainActivity extends AppCompatActivity {
 
     public void showToast(View view) {
         Context context = getApplicationContext();
-        CharSequence text = "This button will launch my app!";
-        int duration = Toast.LENGTH_SHORT;
+        String appName = "";
 
+        switch (view.getId()) {
+            case R.id.button_spotify:
+                appName = "Spotify Streamer";
+                break;
+            case R.id.button_super:
+                appName = "Super Duo";
+                break;
+            case R.id.button_buildit:
+                appName = "Build It Bigger";
+                break;
+            case R.id.button_xyz:
+                appName = "XYZ Reader";
+                break;
+            case R.id.button_capstone:
+                appName = "Capstone";
+                break;
+        }
+        int duration = Toast.LENGTH_SHORT;
+        CharSequence text = "This button will launch my " + appName + " app!";
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
     }
