@@ -49,10 +49,10 @@ public class MainActivity extends AppCompatActivity {
                 appName = "me.hanthong.android.popularmovies";
                 break;
             case R.id.button_super:
-                appName = "com.sam_chordas.android.stockhawk";
+                appName = "com.example.sam_chordas.android.stockhawk";
                 break;
             case R.id.button_buildit:
-                appName = "com.udacity.gradle.builditbigger";
+                appName = "com.udacity.gradle.builditbigger.free";
                 break;
             case R.id.button_xyz:
                 appName = "com.example.xyzreader";
