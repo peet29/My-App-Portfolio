@@ -3,9 +3,9 @@
     <string name="action_settings">Settings</string>
 
     <string name="app_header">My Nanodegree Apps!</string>
-    <string name="button_spotify">Spotify Streamer</string>
-    <string name="button_super">Super Duo</string>
-    <string name="button_buildit">build it bigger</string>
-    <string name="button_xyz">xyz reader</string>
+    <string name="button_spotify">Popular Movies</string>
+    <string name="button_super">Stock Hawk!</string>
+    <string name="button_buildit">Build it bigger</string>
+    <string name="button_xyz">Make Your App Material</string>
     <string name="button_capstone">Capstone</string>
 </resources>
